@@ -1,4 +1,4 @@
-# 📄 PDF Oracle — Intelligent PDF Reader using RAG
+# Intelligent PDF Reader using RAG
 
 An AI-powered PDF Q&A app using **Groq (Llama 3.3 70B)** + **RAG** + **FAISS** + **React**.
 
