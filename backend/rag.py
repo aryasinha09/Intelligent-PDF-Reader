@@ -14,8 +14,10 @@ class RAGEngine:
     def __init__(self):
         self.client = Groq(api_key=GROQ_API_KEY)
         self.embeddings = HuggingFaceEmbeddings(
-            model_name="sentence-transformers/all-MiniLM-L6-v2"
-        )
+    model_name="sentence-transformers/paraphrase-MiniLM-L3-v2",
+    model_kwargs={"device": "cpu"},
+    encode_kwargs={"normalize_embeddings": True, "batch_size": 8}
+)
         self.vector_stores = {}
         self.text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=1000,
