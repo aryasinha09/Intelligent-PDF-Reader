@@ -69,6 +69,8 @@ npm run dev
 
 
 
+
+
 <img width="1920" height="1080" alt="Screenshot 2026-06-11 082815" src="https://github.com/user-attachments/assets/c48a50af-b9c1-4183-b1f0-31c958873088" />
 
 
